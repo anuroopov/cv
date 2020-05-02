@@ -8,7 +8,7 @@ body
     font-family: 'Montserrat', sans-serif;
     color:#120136;
     line-height: 1.8;
-    
+    margin-left:10px;
 }
 
 hr 
@@ -24,7 +24,7 @@ h1{
     color:#142850;
     font-family: 'Sacramento', cursive;
     font-size: 3.0rem;
-    margin-bottom: 0;
+    margin-bottom: 15;
     margin-top: 0;
 }
 
@@ -68,6 +68,7 @@ ol li {
   .table1 {
     border-spacing:0px;
     margin-bottom: 10px;
+    margin-top:40px;
   }
 
   img {
@@ -82,7 +83,15 @@ ol li {
   .detailed-summary 
   {
   line-height: 1.8;
-  margin-left: 10px;
+  margin-left: 45px;
   }
 
- 
+ .skill-table {
+    border-spacing: 15px;
+    margin-left: 45px;
+ }
+
+ .skill-table2 {
+    border-collapse: separate;
+    border-spacing: 15px;
+    }
