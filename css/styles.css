@@ -31,6 +31,7 @@ h1{
 h3{
     font-size: 1.25rem;
     color:#27496d;
+    font-weight: bold;
 }
 
 
@@ -66,7 +67,6 @@ ol li {
 
   .table1 {
     border-spacing:0px;
-    cellspacing="20"
     margin-bottom: 10px;
   }
 
