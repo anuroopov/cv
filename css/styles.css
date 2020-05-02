@@ -2,9 +2,13 @@ body
 {
     background-color: #fffdf9;
     font-family: monospace;
-    font-size: 12px;
+    font-size: 0.85rem;
     margin-top: 8px;
     border-color:#fff3cd;
+    font-family: 'Montserrat', sans-serif;
+    color:#120136;
+    line-height: 1.8;
+    
 }
 
 hr 
@@ -18,27 +22,22 @@ hr
 
 h1{
     color:#142850;
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 h3{
     color:#27496d;
 }
 
+
 ol li {
     color: #120136;
     
      }
-  
-p {
-         color:#120136;
-         font-family: monospace;
-  }
-
-  td {
-      color: #120136;
-      font-family: monospace;
-  }
-
+ 
   .div1
   {
    height: 20px;
@@ -52,13 +51,16 @@ p {
   }
 
   .div2{
-    text-align: center;
+    right:  200px;
     border: 10px solid white;
     color: #120136;
     margin-top: 0px;
     border-top-width: 5px;
     padding-bottom: 5px;
     background-color: #fff3cd;
+    display: block;
+    font-size: 0.8vw;
+    text-align: center;
   }
 
   .table1 {
@@ -70,7 +72,15 @@ p {
     padding-top: 0px;
     border-top-width: 10px;
     margin-top: 0px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
     margin-bottom: 15px;
   }
+
+  .detailed-summary 
+  {
+  line-height: 1.8;
+  margin-left: 10px;
+  }
+
+ 
