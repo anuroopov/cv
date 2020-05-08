@@ -1,15 +1,13 @@
 body 
 {
     background-color: #fffdf9;
-    font-family: monospace;
     font-size: 0.85rem;
     margin-top: 8px;
-    border-color:#fff3cd;
     font-family: 'Montserrat', sans-serif;
     color:#120136;
     line-height: 1.8;
     margin-left:10px;
-}
+    }
 
 hr 
 {
@@ -34,44 +32,80 @@ h3{
     font-weight: bold;
 }
 
+/* sections */
 
-ol li {
-    color: #120136;
-    
-     }
+#title {
+ background-color:#ecfbfc;
  
-  .div1
-  {
-   height: 20px;
-   text-align: center;
-   border: 10px solid white;
-   color: #120136;
-   margin-top: 20px;
-   padding-top: 10px;
-   padding-bottom: 20px;
-   background-color: #f9f9f9;
+}
+
+.title-image {
+  width:65%;
+  padding-right:0px;
+  margin-top: 100px;
+  margin-left: 80px;
+  border-radius: 75%;
   }
 
-  .div2{
+.head-div {
+  padding: 5% 2% 2%;
+ 
+    }
+
+    .head-div2 {
+      padding: 1% 1% 1%;
+      padding-top: 20px;
+      text-align: center;
+      background-color:#fcf7bb;
+     
+        }
+
+    #headlines {
+      padding: 1% 10% 2%;
+      font-size: 0.9rem;
+      text-align: justify;
+    }
+
+    #badges {
+    padding-left: 250px;
+    padding-top: 25px;
+    }
+        #summary,#skills{
+          background-color:#fcf7bb;
+          padding: 1% 10% 2%;
+          font-size: 0.9rem;
+          text-align: justify;
+        }
+
+        #profexp,#accomp{
+          padding: 1% 10% 2%;
+          font-size: 0.9rem;
+          text-align: justify;
+        }
+
+#footer {
+  padding: 5% 2% 2%;
+  background-color:#ecfbfc;
+  text-align: center;
+}
+        
+
+/* sections */
+
+
+
+   .div2{
     right:  200px;
-    border: 10px solid white;
     color: #120136;
     margin-top: 0px;
     border-top-width: 5px;
     padding-bottom: 5px;
-    background-color: #fff3cd;
     display: block;
-    font-size: 0.8vw;
+    font-size: 1.0vw;
     text-align: center;
   }
 
-  .table1 {
-    border-spacing:0px;
-    margin-bottom: 10px;
-    margin-top:40px;
-  }
-
-  img {
+   img {
     padding-top: 0px;
     border-top-width: 10px;
     margin-top: 0px;
@@ -94,4 +128,51 @@ ol li {
  .skill-table2 {
     border-collapse: separate;
     border-spacing: 15px;
+    }
+
+    /* --------------- Media Query ----------------------------------*/
+
+    @media only screen and (max-width: 600px) {
+      #badges {
+        padding-left: 80px;
+        padding-top: 5px;
+           }
+       
+           .head-div {
+            padding: 2% 2% 2%;
+           
+              }
+
+            .head-div h1,p {
+            padding-left: 100px;
+            padding-top: 5px;
+          }
+
+          .head-div2 {
+            padding: 1% 1% 1%;
+            padding-top: 20px;
+            background-color:#fcf7bb;
+            font-size: smaller;
+              }
+
+              #headlines p{
+                padding-left: 35px;
+                text-align: justify;
+                font-size: smaller;
+              }
+           
+              #summary,#skills{
+                font-size: smaller;
+               }
+
+               #profexp,#accomp{
+                font-size:smaller;
+                 }
+
+                 #footer {
+                  font-size:smaller;
+                  text-align: center;
+                }
+                   
+
     }
