@@ -56,7 +56,7 @@ h3{
       padding: 1% 1% 1%;
       padding-top: 20px;
       text-align: center;
-      background-color:#fcf7bb;
+      background-color:#ffebbb;
      
         }
 
@@ -71,7 +71,7 @@ h3{
     padding-top: 25px;
     }
         #summary,#skills{
-          background-color:#fcf7bb;
+          background-color:#ffebbb;
           padding: 1% 10% 2%;
           font-size: 0.9rem;
           text-align: justify;
@@ -173,6 +173,7 @@ h3{
                   font-size:smaller;
                   text-align: center;
                 }
-                   
+
+                             
 
     }
